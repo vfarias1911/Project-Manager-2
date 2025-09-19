@@ -16,6 +16,7 @@ public class ApiKeyService {
 
     private final ApiKeyRepository apiKeyRepository;
 
+    //O ApiKeyDTO contém a estrutura recebida do cliente
     public ApiKey createApiKey(ApiKeyDTO apiKeyDTO){
 
         ApiKey apiKey = ApiKey
