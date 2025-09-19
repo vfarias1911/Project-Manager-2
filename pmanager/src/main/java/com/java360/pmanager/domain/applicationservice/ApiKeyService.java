@@ -31,7 +31,6 @@ public class ApiKeyService {
                 )
                 .build();
 
-
         apiKeyRepository.save(apiKey);
         return apiKey;
 
